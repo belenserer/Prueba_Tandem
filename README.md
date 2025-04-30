@@ -50,32 +50,26 @@ rules: ['required']
 }
 ]
 }
+
 Esta estructura permite:
-
 - Reutilización y expansión sencilla
-
 - Separación de lógica de presentación
-
 - Validaciones flexibles y extensibles
+
 
 ✅ Validaciones Avanzadas
 Se utilizan las reglas de validación de Vuetify 3 con soporte para:
 
 - Campos obligatorios (required)
-
 - Reglas de longitud (min, max)
-
 - Correos válidos (email)
-
 - Errores en tiempo real
+
 
 💾 Persistencia de Datos
 Al enviar el formulario:
 
 - Se valida todo el contenido
-
 - Los datos se guardan localmente en localStorage
-
 - Se muestra un mensaje de éxito o error usando VAlert de Vuetify con una diracion de 4 segundos.
-
 - El formulario se reinicia automáticamente
